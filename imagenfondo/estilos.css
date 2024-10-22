@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(126, 186, 255);
+    color: white;
+}
+
+.contenedor{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(132, 132, 132);
+
+
+}
+
+.texto-color{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.fondo-solido{
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fondo-imagen{
+    background-image: url('https://www.pngmart.com/files/7/Minecraft-PNG-Photos.png');
+    padding: 300px;
+}
+
+
+
+
