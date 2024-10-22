@@ -6,7 +6,7 @@ body{
 .contenedor{
     padding: 20px;
     margin: 0 auto;
-    background-color: rgb(132, 132, 132);
+    background-color: rgb(86, 86, 86);
 
 
 }
@@ -27,7 +27,17 @@ body{
 
 .fondo-imagen{
     background-image: url('https://www.pngmart.com/files/7/Minecraft-PNG-Photos.png');
-    padding: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 60, 255);
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 
