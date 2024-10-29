@@ -1,16 +1,28 @@
 input {
     padding: 10px;
-    border: 2px solid;
-
-    transition: border-color 0.6s ease;
-
+    border: 2px solid rgb(176, 176, 176);
     border-radius: 4px;
+    transition: border-color 0.3s ease;
+    
 }
+
+
+/* Esto es un comentario*/
 
 input:focus{
-    border: 3px solid;
-    border-color: rgb(164, 208, 164);
+    /*border: 3px solid; */
+    border-color: rgb(88, 150, 88);
+    outline: none;
 }
 
+button{
+    background-color: rgb(205, 255, 162);
+    color: rgb(91, 89, 89);
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+}
 
-
+button:not(.algo){
+background-color: pink;
+}
