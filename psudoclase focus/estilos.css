@@ -1,0 +1,16 @@
+input {
+    padding: 10px;
+    border: 2px solid;
+
+    transition: border-color 0.6s ease;
+
+    border-radius: 4px;
+}
+
+input:focus{
+    border: 3px solid;
+    border-color: rgb(164, 208, 164);
+}
+
+
+
