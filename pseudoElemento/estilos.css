@@ -1,0 +1,21 @@
+.boton{
+    padding: 10px;
+    background-color: chartreuse;
+    color: darkgreen;
+    border-radius: 6px;
+    height: 100px;
+    width: 300px;
+}
+
+
+.boton::before{
+    content: "-";
+    margin-right: 10px;
+    color: brown;
+}
+
+.boton::after{
+    content: "->";
+    color: black;
+    margin-left: 2px;
+}
